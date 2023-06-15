@@ -59,7 +59,6 @@ const Walkthrough1 = () => {
         // Slider 2
         setRow2CurrentPosition(prevPosition => {
           const position = Number(prevPosition) + 1;
-
           row2FlatListRef?.current?.scrollToOffset({
             offset: position,
             animated: false,
