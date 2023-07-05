@@ -1,7 +1,5 @@
-import Welcome from "./Walkthrough/Welcome";
-import Walkthrough from "./Walkthrough/Walkthrough";
+import Welcome from './Walkthrough/Welcome';
+import Walkthrough from './Walkthrough/Walkthrough';
 
-export {
-    Welcome,
-    Walkthrough
-}
+import AuthMain from './Authentication/AuthMain';
+export {Welcome, Walkthrough, AuthMain};
