@@ -5,7 +5,7 @@ import SplashScreen from 'react-native-splash-screen';
 import {NavigationContainer} from '@react-navigation/native';
 import {createNativeStackNavigator} from '@react-navigation/native-stack';
 
-import {Welcome, Walkthrough, AuthMain} from './src/screens';
+import {Welcome, Walkthrough, AuthMain, Home, ScanProduct} from './src/screens';
 
 const Stack = createNativeStackNavigator();
 
@@ -24,6 +24,8 @@ const App = () => {
         <Stack.Screen name="Welcome" component={Welcome} />
         <Stack.Screen name="Walkthrough" component={Walkthrough} />
         <Stack.Screen name="AuthMain" component={AuthMain} />
+        <Stack.Screen name="Home" component={Home} />
+        <Stack.Screen name="ScanProduct" component={ScanProduct} />
       </Stack.Navigator>
     </NavigationContainer>
   );
